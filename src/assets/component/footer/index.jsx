@@ -14,7 +14,6 @@ const FooterComponent = () => {
           <p className="text-white text-[30px] font-medium">DreamHouse</p>
           <p className="text-[20px] text-[#E3E3E3] opacity-70">© 2025 DreamHouse</p>
         </div>
-
       </div>
     </div>
   );
