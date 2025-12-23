@@ -38,9 +38,7 @@ const Block2 = () => {
               home is ideal for families who value comfort, privacy, and a beautiful
               environment for everyday life.
             </p>
-
-            {/* <button className='bg-[#F2B766] text-black font-medium rounded-[20px] px-3 py-9 w-[183px] h-6 items-center justify-center text-[14px]'> More details </button> */}
-             <button className="bg-[#F2B766] h-[47px] w-[183px] rounded-full text-[#171B1B] text-[14px] mt-[30px]">More details</button>
+             <button className="hover:bg-[#d99f4f] hover:scale-105 bg-[#F2B766] h-[47px] w-[183px] rounded-full text-[#171B1B] text-[14px] mt-[30px]">More details</button>
           </div>
         </div>
       ))}

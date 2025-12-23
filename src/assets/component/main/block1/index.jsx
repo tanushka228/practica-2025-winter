@@ -21,7 +21,7 @@ const Block1 = () => {
             choosing a home to completing the deal.
           </p>
 
-          <button className=" mt-10 px-10 py-4 bg-[#F2B766] h-16 w-[223px] text-[#171B1B] font-medium rounded-full text-[16px]">Start Searching </button>
+          <button className="hover:bg-[#d99f4f] hover:scale-105 mt-10 px-10 py-4 bg-[#F2B766] h-16 w-[223px] text-[#171B1B] font-medium rounded-full text-[16px]">Start Searching </button>
         </div>
         
         <div className="w-[50%] flex justify-end">
