@@ -32,3 +32,48 @@ function App() {
 }
 
 export default App;
+
+// import { Routes, Route } from "react-router-dom"
+// import { useState } from "react"
+
+// import HeaderComponent from "./assets/component/header"
+// import FooterComponent from "./assets/component/footer"
+// import SignUpModal from "./assets/component/modals/SignUpModal"
+
+// // страницы
+// import Main from "./assets/component/main"
+// import AboutUs from "./assets/component/aboutUs"
+// import Catalog from "./assets/component/catalog"
+
+// function App() {
+//   const [isSignUpOpen, setIsSignUpOpen] = useState(false)
+//   const [isAuth, setIsAuth] = useState(false)
+
+//   return (
+//     <>
+//       <HeaderComponent
+//         isAuth={isAuth}
+//         onSignUpClick={() => setIsSignUpOpen(true)}
+//       />
+
+//       <Routes>
+//         <Route path="/" element={<Main />} />
+//         {/* <Route path="/about" element={<AboutUs />} />
+//         <Route path="/catalog" element={<Catalog />} /> */}
+//       </Routes>
+
+//       <FooterComponent />
+
+//       <SignUpModal
+//         isOpen={isSignUpOpen}
+//         onClose={() => setIsSignUpOpen(false)}
+//         onSuccess={() => {
+//           setIsAuth(true)
+//           setIsSignUpOpen(false)
+//         }}
+//       />
+//     </>
+//   )
+// }
+
+// export default App;
