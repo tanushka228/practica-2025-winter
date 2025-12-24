@@ -3,7 +3,7 @@ import foto2 from '../../photo/foto2.png'
 
 const Block2 = () => {
   return (
-    <div className='w-full bg-[#171B1B] px-[57px] py-[60px] text-white'>
+    <div id="popular-objects" className='w-full bg-[#171B1B] px-[57px] py-[60px] text-white' >
       <h2 className='text-[64px] font-semibold px-[57px]'> Popular objects </h2>
 
       {[1, 2, 3].map((_, index) => (
@@ -38,7 +38,9 @@ const Block2 = () => {
               home is ideal for families who value comfort, privacy, and a beautiful
               environment for everyday life.
             </p>
-             <button className="hover:bg-[#d99f4f] hover:scale-105 bg-[#F2B766] h-[47px] w-[183px] rounded-full text-[#171B1B] text-[14px] mt-[30px]">More details</button>
+            <button className="hover:bg-[#d99f4f] hover:scale-105 bg-[#F2B766] h-[47px] w-[183px] rounded-full text-[#171B1B] text-[14px] mt-[30px] transition-transform duration-200">
+              More details
+            </button>
           </div>
         </div>
       ))}
